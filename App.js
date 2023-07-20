@@ -8,6 +8,7 @@ import { Audio } from "expo-av";
 const { width, height } = Dimensions.get("screen");
 const SPACING = 12;
 
+
 export default function App() {
   const [query, setQuery] = React.useState(null);
   const [result, setResult] = React.useState([{
